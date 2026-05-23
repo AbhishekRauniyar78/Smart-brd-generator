@@ -1,0 +1,16 @@
+{
+  "project_name": "Customer Portal Redesign",
+  "business_context": "Modernize the B2B customer portal for enterprise clients with improved self-service capabilities.",
+  "stakeholder_notes": "VP Sales wants faster quote generation; IT requires SSO integration.",
+  "constraints": ["Must integrate with Salesforce", "Launch by Q3 2026", "SOC 2 compliance required"],
+  "text_fragments": [
+    {
+      "content": "Current portal has 40% bounce rate on login. Users request mobile-responsive dashboards and export to Excel.",
+      "metadata": {"source": "user_research", "date": "2026-05-01"}
+    },
+    {
+      "content": "Support team handles 200+ tickets/week related to password resets and order status lookups.",
+      "metadata": {"source": "support_metrics"}
+    }
+  ]
+}

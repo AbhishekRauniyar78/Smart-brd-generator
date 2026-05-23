@@ -1,0 +1,7 @@
+project_id    = "your-gcp-project-id"
+region          = "us-central1"
+gcs_bucket_name = "brd-agent-artifacts-your-suffix"
+
+# Set true after building and pushing your container image
+deploy_cloud_run = false
+container_image    = "gcr.io/your-gcp-project-id/brd-agent:latest"
